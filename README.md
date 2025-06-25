@@ -1,13 +1,13 @@
 # Crop-Recommendation-Project
 Crop Recommendation System
 
-📌 Overview
+📌 **Overview**
 
 This project is a machine learning-based crop recommendation system that suggests the most suitable crop to grow based on environmental conditions like NPK levels, temperature, humidity, pH, and rainfall.
 
 The system leverages machine learning and data-driven analysis to recommend crops that enhance agricultural yield while promoting long-term sustainability and resource efficiency. This helps farmers make informed decisions based on soil and climate conditions, ultimately improving productivity and supporting sustainable agriculture.
 
-✨ Features
+✨ **Features**
 
 Predicts the best crop based on soil and climate data.
 
@@ -27,7 +27,7 @@ Displays accuracy and confusion matrix for each model.
 
 Visual bar chart comparing model performance.
 
-⚙️ Requirements
+⚙️ **Requirements**
 
 Python 3.x
 
@@ -45,7 +45,7 @@ Install required packages using:
 
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 
-📊 Dataset
+📊 **Dataset**
 
 The dataset used is Crop_recommendation.csv and contains the following features:
 
@@ -65,7 +65,7 @@ rainfall: in mm
 
 label: crop name (target variable)
 
-🚀 Usage
+🚀 **Usage**
 
 Upload the dataset (Crop_recommendation.csv) in your Colab or local project.
 
@@ -81,7 +81,7 @@ View accuracy, confusion matrix, and model comparison bar chart.
 
 Try changing model parameters to improve results.
 
-🧐 Model Implementation
+🧐 **Model Implementation**
 
 Logistic Regression: Simple baseline model
 
@@ -101,7 +101,7 @@ Confusion Matrix (normalized in %)
 
 Classification Report (precision, recall, F1-score)
 
-🔮 Future Improvements
+🔮 **Future Improvements**
 
 Develop a web interface using Flask or Streamlit.
 
